@@ -1,0 +1,377 @@
+{
+  "distros": [
+    {
+      "id": "linux_mint",
+      "name": "Linux Mint",
+      "description": "Extremely easy for beginners, stable, and well-suited for users transitioning from Windows.",
+      "download_url": "https://linuxmint.com/download.php",
+      "tags": [
+        "beginner",
+        "intermediate",
+        "daily",
+        "dev",
+        "stable",
+        "nvidia",
+        "out_of_box",
+        "large_community",
+        "low_spec",
+        "windows_like",
+        "gui_store"
+      ]
+    },
+    {
+      "id": "ubuntu",
+      "name": "Ubuntu",
+      "description": "One of the most popular Linux distributions. Stands out with its large community and broad hardware support.",
+      "download_url": "https://ubuntu.com/download",
+      "tags": [
+        "beginner",
+        "intermediate",
+        "daily",
+        "dev",
+        "server",
+        "stable",
+        "nvidia",
+        "out_of_box",
+        "large_community",
+        "gui_store"
+      ]
+    },
+    {
+      "id": "kubuntu",
+      "name": "Kubuntu",
+      "description": "An Ubuntu-based distribution featuring the KDE Plasma desktop, offering a familiar Windows-like experience.",
+      "download_url": "https://kubuntu.org/getkubuntu/",
+      "tags": [
+        "beginner",
+        "intermediate",
+        "daily",
+        "dev",
+        "stable",
+        "nvidia",
+        "large_community",
+        "windows_like",
+        "gui_store"
+      ]
+    },
+    {
+      "id": "xubuntu",
+      "name": "Xubuntu",
+      "description": "A lightweight Ubuntu flavor featuring the XFCE desktop environment, ideal for older computers.",
+      "download_url": "https://xubuntu.org/download/",
+      "tags": [
+        "beginner",
+        "daily",
+        "stable",
+        "low_spec",
+        "windows_like",
+        "gui_store"
+      ]
+    },
+    {
+      "id": "lubuntu",
+      "name": "Lubuntu",
+      "description": "An Ubuntu derivative optimized for low-spec systems.",
+      "download_url": "https://lubuntu.me/downloads/",
+      "tags": [
+        "beginner",
+        "daily",
+        "stable",
+        "low_spec",
+        "windows_like",
+        "gui_store"
+      ]
+    },
+    {
+      "id": "pop_os",
+      "name": "Pop!_OS",
+      "description": "Optimized for gamers and developers, offering robust out-of-the-box NVIDIA support.",
+      "download_url": "https://pop.system76.com/",
+      "tags": [
+        "beginner",
+        "intermediate",
+        "daily",
+        "gaming",
+        "dev",
+        "stable",
+        "nvidia",
+        "out_of_box",
+        "large_community",
+        "mac_like",
+        "minimal",
+        "gui_store"
+      ]
+    },
+    {
+      "id": "debian",
+      "name": "Debian",
+      "description": "Renowned for its rock-solid stability, making it ideal for servers and developers.",
+      "download_url": "https://www.debian.org/distrib/",
+      "tags": [
+        "intermediate",
+        "dev",
+        "server",
+        "stable",
+        "large_community",
+        "minimal"
+      ]
+    },
+    {
+      "id": "fedora_workstation",
+      "name": "Fedora Workstation",
+      "description": "A developer-friendly distribution delivering cutting-edge technologies and modern features.",
+      "download_url": "https://fedoraproject.org/workstation/",
+      "tags": [
+        "intermediate",
+        "dev",
+        "daily",
+        "stable",
+        "large_community",
+        "gui_store",
+        "minimal"
+      ]
+    },
+    {
+      "id": "fedora_kde",
+      "name": "Fedora KDE Spin",
+      "description": "The official spin of Fedora featuring the customizable KDE Plasma desktop.",
+      "download_url": "https://fedoraproject.org/spins/kde/",
+      "tags": [
+        "intermediate",
+        "daily",
+        "dev",
+        "stable",
+        "windows_like",
+        "gui_store",
+        "large_community"
+      ]
+    },
+    {
+      "id": "opensuse_tumbleweed",
+      "name": "openSUSE Tumbleweed",
+      "description": "A powerful rolling release distribution that keeps your system continuously updated.",
+      "download_url": "https://get.opensuse.org/tumbleweed/",
+      "tags": [
+        "intermediate",
+        "advanced",
+        "rolling",
+        "daily",
+        "dev",
+        "gui_store",
+        "minimal"
+      ]
+    },
+    {
+      "id": "opensuse_leap",
+      "name": "openSUSE Leap",
+      "description": "An enterprise-grade, highly stable release of openSUSE.",
+      "download_url": "https://get.opensuse.org/leap/",
+      "tags": [
+        "intermediate",
+        "daily",
+        "dev",
+        "server",
+        "stable",
+        "gui_store"
+      ]
+    },
+    {
+      "id": "arch_linux",
+      "name": "Arch Linux",
+      "description": "Designed for advanced users who want to build and customize their operating system from scratch.",
+      "download_url": "https://archlinux.org/download/",
+      "tags": [
+        "advanced",
+        "dev",
+        "gaming",
+        "rolling",
+        "aur",
+        "privacy",
+        "low_spec",
+        "minimal"
+      ]
+    },
+    {
+      "id": "endeavouros",
+      "name": "EndeavourOS",
+      "description": "An Arch-based rolling release distribution focused on providing a smooth and easy setup.",
+      "download_url": "https://endeavouros.com/latest-release/",
+      "tags": [
+        "intermediate",
+        "advanced",
+        "dev",
+        "gaming",
+        "rolling",
+        "aur",
+        "minimal"
+      ]
+    },
+    {
+      "id": "manjaro",
+      "name": "Manjaro",
+      "description": "A user-friendly, Arch-based rolling release distribution suitable for everyday use.",
+      "download_url": "https://manjaro.org/download/",
+      "tags": [
+        "beginner",
+        "intermediate",
+        "daily",
+        "gaming",
+        "dev",
+        "rolling",
+        "aur",
+        "gui_store",
+        "windows_like"
+      ]
+    },
+    {
+      "id": "cachyos",
+      "name": "CachyOS",
+      "description": "A performance-focused, heavily optimized Arch-based distribution.",
+      "download_url": "https://cachyos.org/download/",
+      "tags": [
+        "intermediate",
+        "advanced",
+        "gaming",
+        "dev",
+        "rolling",
+        "aur",
+        "minimal"
+      ]
+    },
+    {
+      "id": "garuda_linux",
+      "name": "Garuda Linux",
+      "description": "An Arch-based distribution tailored for gamers and desktop power users.",
+      "download_url": "https://garudalinux.org/downloads.html",
+      "tags": [
+        "intermediate",
+        "gaming",
+        "rolling",
+        "aur",
+        "out_of_box",
+        "gui_store"
+      ]
+    },
+    {
+      "id": "zorin_os",
+      "name": "Zorin OS",
+      "description": "Designed to make the transition from Windows to Linux effortless.",
+      "download_url": "https://zorin.com/os/download/",
+      "tags": [
+        "beginner",
+        "daily",
+        "stable",
+        "windows_like",
+        "out_of_box",
+        "gui_store",
+        "large_community"
+      ]
+    },
+    {
+      "id": "elementary_os",
+      "name": "elementary OS",
+      "description": "An Ubuntu-based distribution featuring a sleek, refined macOS-inspired interface.",
+      "download_url": "https://elementary.io/",
+      "tags": [
+        "beginner",
+        "daily",
+        "stable",
+        "mac_like",
+        "gui_store"
+      ]
+    },
+    {
+      "id": "mx_linux",
+      "name": "MX Linux",
+      "description": "A Debian-based distribution known for its low resource usage and high stability.",
+      "download_url": "https://mxlinux.org/download-links/",
+      "tags": [
+        "beginner",
+        "intermediate",
+        "daily",
+        "stable",
+        "low_spec",
+        "gui_store"
+      ]
+    },
+    {
+      "id": "kali_linux",
+      "name": "Kali Linux",
+      "description": "A specialized distribution tailored for penetration testing and digital forensics.",
+      "download_url": "https://www.kali.org/get-kali/",
+      "tags": [
+        "advanced",
+        "privacy",
+        "rolling",
+        "dev"
+      ]
+    },
+    {
+      "id": "parrot_os",
+      "name": "Parrot OS",
+      "description": "A Debian-based distribution focused on cybersecurity, privacy, and development.",
+      "download_url": "https://parrotsec.org/download/",
+      "tags": [
+        "intermediate",
+        "advanced",
+        "privacy",
+        "dev",
+        "stable",
+        "low_spec"
+      ]
+    },
+    {
+      "id": "alpine_linux",
+      "name": "Alpine Linux",
+      "description": "An ultra-lightweight, security-oriented distribution widely used for containers and servers.",
+      "download_url": "https://alpinelinux.org/downloads/",
+      "tags": [
+        "advanced",
+        "server",
+        "privacy",
+        "low_spec",
+        "minimal"
+      ]
+    },
+    {
+      "id": "void_linux",
+      "name": "Void Linux",
+      "description": "An independently developed, systemd-free, lightweight rolling release distribution.",
+      "download_url": "https://voidlinux.org/download/",
+      "tags": [
+        "advanced",
+        "rolling",
+        "low_spec",
+        "minimal",
+        "privacy",
+        "dev"
+      ]
+    },
+    {
+      "id": "gentoo",
+      "name": "Gentoo",
+      "description": "Offers maximum customization through its source-based package compilation model.",
+      "download_url": "https://www.gentoo.org/downloads/",
+      "tags": [
+        "advanced",
+        "rolling",
+        "dev",
+        "low_spec",
+        "minimal"
+      ]
+    },
+    {
+      "id": "nixos",
+      "name": "NixOS",
+      "description": "Delivers a unique package management paradigm based on declarative system configuration.",
+      "download_url": "https://nixos.org/download/",
+      "tags": [
+        "advanced",
+        "dev",
+        "stable",
+        "minimal",
+        "privacy"
+      ]
+    }
+  ]
+}

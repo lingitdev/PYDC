@@ -46,7 +46,7 @@ pip install -r requirements.txt
 Run the application:
 
 ```bash
-python main.py
+python src/main.py
 ```
 
 Answer the interactive questions, and PYDC will recommend the three Linux distributions that best match your preferences.

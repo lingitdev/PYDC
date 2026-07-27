@@ -29,7 +29,7 @@ PYDC asks a series of interactive questions about your experience, hardware, and
 Clone the repository:
 
 ```bash
-git clone https://github.com/<your-username>/PYDC.git
+git clone https://github.com/lingitdev/PYDC.git
 cd PYDC
 ```
 

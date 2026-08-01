@@ -6,7 +6,7 @@ from rich.table import Table
 
 console = Console()
 
-with open("data/distros.json", "r", encoding="utf-8") as f:
+with open("../data/distros.json", "r", encoding="utf-8") as f:
     data = json.load(f)
 
 distros = data["distros"]
